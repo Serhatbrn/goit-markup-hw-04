@@ -1,0 +1,242 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    
+}
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+.container{
+    display: flex;
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+.header-adress-list{
+    display: flex;
+    gap: 40px;
+}
+.header item{
+    padding: 24px 0;
+}
+.header-link{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2e2f42;
+    margin-right: 76px;
+    padding: 24px 0;
+}
+.header-link:hover{
+    color: #404bbf;
+}
+.header-link:focus {
+    color: #404bbf;
+}
+.header-adress{
+    font-style: normal;
+}
+.header-adress-link{
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-adress-link:hover{
+color: #404bbf;
+}
+.header-adress-link:focus{
+color: #404bbf;
+}
+.logo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    margin-right: 76px;
+}
+.studio{
+    color: #2e2f42;
+}
+.section-one{
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+.sone-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+}
+.button{
+    background-color: #4D5AE5;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    
+}
+.button:hover{
+    background-color: #404BBF;
+}
+.button:focus{
+    background-color: #404BBF;
+}
+.section-two{
+    padding: 120px 0;
+}
+.visual-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    white-space: nowrap;
+    border: 0;
+}
+.stwo-list{
+    display: flex;
+    gap: 24px;
+}
+.stwo-item{
+    width: calc((100%-72px) / 4);
+}
+.stwo-small-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    flex-basis: calc((100% - 72px) / 4);
+}
+.stwo-p{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-three{
+    background-color: #f4f4fd;
+    padding: 120px 0;
+}
+.sthree-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.sthree-list{
+    display: flex;
+    gap: 24px;
+}
+.sthree-item{
+    background-color: #FFFFFF;
+        width: calc((100%-72px) / 4);
+        border-radius: 0px 0px 4px 4px;
+}
+.name-position{
+    padding: 32px 0;
+}
+.sthree-small-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+.sthree-p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.section-four{
+    padding: 120px 0;
+}
+.sfour-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.sfour-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.sfour-item{
+    flex-basis: calc((100% - 72px) / 4);
+}
+.name-category{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+.sfour-small-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.sfour-p{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footer{
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+.logo-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footerstudio{
+    color: #F4F4FD;
+    display: inline-block;
+}
+.f-paragraf{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
+img{
+    display: block
+}
