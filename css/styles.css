@@ -12,7 +12,8 @@ body{
     display: flex;
     width: 1158px;
     padding: 0 15px;
-    margin: 0 auto
+    margin: 0 auto;
+    align-items: baseline;
 }
 .header-nav{
     display: flex;
@@ -240,7 +241,7 @@ color: #404bbf;
 img{
     display: block
 }
-.icon {
+.name-position .social-list .social-item .icon {
     display: flex;
     align-items: center;
     justify-content: center;
