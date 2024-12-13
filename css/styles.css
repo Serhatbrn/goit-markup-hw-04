@@ -251,3 +251,6 @@ img{
     height: 112px;
     margin-bottom: 8px;
 }
+.logo-paragraf{
+    align-items: baseline;
+}
