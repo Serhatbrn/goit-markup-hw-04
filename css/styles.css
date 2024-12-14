@@ -293,6 +293,34 @@ color: #404bbf;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+    font-weight: 500;
+}
+.f-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.f-social-list{
+    display: flex;
+    gap: 16px;
+}
+.f-social-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-social-link:hover{
+    background-color: #31d0aa;
+}
+.f-social-link:focus{
+    background-color: #31d0aa;
 }
 img{
     display: block
