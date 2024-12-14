@@ -24,6 +24,26 @@ body{
     display: flex;
     gap: 40px;
 }
+.header-item{
+
+}
+.header-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2e2f42;
+    margin-right: 76px;
+    padding: 24px 0;
+}
+
+.header-link:hover {
+    color: #404bbf;
+}
+
+.header-link:focus {
+    color: #404bbf;
+}
 .header-adress-list{
     display: flex;
     gap: 40px;
@@ -45,21 +65,6 @@ body{
 .header-adress-item{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    font-size: 16px;
-    color: #2e2f42;
-    margin-right: 76px;
-    padding: 24px 0;
-}
-.header-link:hover{
-    color: #404bbf;
-}
-.header-link:focus {
-    color: #404bbf;
-}
 .header-adress{
     font-style: normal;
 }
@@ -67,6 +72,7 @@ body{
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress-link:hover{
 color: #404bbf;
@@ -327,6 +333,10 @@ img{
     display: block
 }
 .f-social-item{
+    width: 40px;
+    height: 40px;
+}
+.social-item {
     width: 40px;
     height: 40px;
 }
